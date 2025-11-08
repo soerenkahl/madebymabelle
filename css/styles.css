@@ -5,8 +5,9 @@ html, body { margin: 0; padding: 0; }
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color: #222;
-  background: #fafafa;
-  line-height: 1.5;
+  /* Subtle light rose gradient from top-left to bottom-right */
+    background: linear-gradient(315deg, #ffd9e8 0%, #ffe6ef 60%, #fff5f8 100%);
+    line-height: 1.5;
 }
 
 .container {
