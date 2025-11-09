@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Made by Mabelle</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Made by Mabelle</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="pages/collections.html">Collections</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>Welcome</h2>
+      <p>Explore a glimpse of my work below. More is coming soon!</p>
+    </section>
+
+    <section class="gallery" aria-label="Featured images">
+      <figure>
+        <img src="images/blackwhite_watchstrap.jpeg" alt="Black and white watch strap" />
+<!--        <figcaption>Black & White Watch Strap</figcaption>-->
+      </figure>
+      <figure>
+        <img src="images/flowerchain.jpg" alt="Flower chain jewelry" />
+<!--        <figcaption>Flower Chain</figcaption>-->
+      </figure>
+      <figure>
+        <img src="images/mixed_bracelets.jpg" alt="Mixed bracelets" />
+<!--        <figcaption>Mixed Bracelets</figcaption>-->
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Made by Mabelle</p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer for convenience
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

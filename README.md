@@ -1,3 +1,3 @@
 # madebymabelle
-![image](images/IMG_9866.jpeg)
+![image](images/blackwhite_watchstrap.jpeg)
 Hier entsteht eine wundervolle Website!
